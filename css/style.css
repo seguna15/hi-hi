@@ -227,6 +227,19 @@ header{
     align-items: center;
     color: var(--primary-purple);
 }
+
+/* login */
+.action-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.action-grid a{
+    color: var(--primary-purple);
+}
+
+
 /*footer */
 
 .footer{
