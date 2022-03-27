@@ -8,6 +8,8 @@
     --smoke-white: #f5f5f5;
     --text-color: #47453F;
     --header-height: 100px;
+    --purple-box-shadow:  3px 2px 10px var(--light-purple);
+    --grey-box-shadow: 0px 8px 15px var(--grey);
 }
 
 /* General CSS */
@@ -49,6 +51,10 @@ header{
     justify-content: center;
 }
 
+.navbar-sign-up .nav-group{
+    justify-content: flex-start !important;
+}
+
 .nav-item{
     display: flex;
     justify-content: space-around;
@@ -62,12 +68,25 @@ header{
     transition: 1s;
 }
 
+.navbar-sign-up .nav-group .nav-item .nav-link{
+    background-color: var(--primary-purple);
+    padding: 10px 20px;
+    color: var(--smoke-white);
+    transition: 2s;
+}
+
 .nav-link:hover{
     background-color: var(--primary-purple);
     padding: 10px 20px;
     color: var(--smoke-white);
     
 }
+
+.navbar-sign-up .nav-group .nav-item .nav-link:hover {
+    color: var(--primary-purple);
+    background: none;
+}
+
 
 /* Main */
 .main{
@@ -76,13 +95,21 @@ header{
     justify-content: center;
     align-items: center;
     gap: 8rem;
+    min-height: 100vh;
+}
+
+.main.sign-up{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 }
 /* call to action */
 .call-to-action{
     display: flex;
     margin-top: 8rem;
     padding: 5rem;
-    box-shadow: 0px 8px 15px var(--grey);
+    box-shadow: 3px 2px 10px var(--light-purple);
     flex-direction: column;
     gap: 4rem;
     width: 40%;
@@ -101,7 +128,7 @@ header{
     padding: 10px 25px;
     text-transform: capitalize;
     font-size: 16px;
-    box-shadow: 0px 8px 15px var(--grey);
+    box-shadow: var(--grey-box-shadow);
     outline: none;
     border: none;
     transition: 2s;
@@ -150,6 +177,56 @@ header{
 }
 
 
+/* registration */
+
+.registration{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: var(--grey-box-shadow);
+    align-items: center;
+    padding: 2rem;
+}
+
+.registration h2{
+    color: var(--primary-purple);
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.form-group{
+    width: 60%;
+}
+
+.form-group label{
+   font-size: 16px;
+   color: var(--primary-purple);
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+.input-group input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--primary-purple);
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.input-group input:hover, .input-group input:focus{
+    box-shadow: var(--purple-box-shadow);
+}
+
+.check-box-group{
+    display: flex;
+    width: 50%;
+    margin-left: -140px;
+    gap: 10px;
+    align-items: center;
+    color: var(--primary-purple);
+}
 /*footer */
 
 .footer{
