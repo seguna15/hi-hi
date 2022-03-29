@@ -104,6 +104,13 @@
         width: 100%;
     }
 
+    .container .card-container{
+        margin-top: 50px;
+    }
+    .container form{
+        width: 100%;
+    }
+
     .footer-group{
         flex-direction: column;
     }
