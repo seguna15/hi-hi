@@ -49,8 +49,7 @@ a{
 /* header */
 
 header{
-
-    width: 100%
+    width: 100%;    
 }
 
 
@@ -271,7 +270,7 @@ header{
     color: var(--primary-purple) !important;
     align-self: self-end;
 }
-.success-message .bxl-whatsapp{
+.success-message .bxl-whatsapp{ 
     color: var(--primary-purple);
     align-self: self-end;
 }
