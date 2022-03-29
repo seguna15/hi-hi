@@ -42,7 +42,9 @@ a{
     text-decoration: none;
 }
 /* Header */
-
+.open-menu, .close-menu{
+    display: none;
+}
 .navbar {
     display: flex;
     width: 100%;
