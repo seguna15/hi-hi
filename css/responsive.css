@@ -85,4 +85,8 @@
     .content-2{
         width: 100%;
     }
+
+    .footer-group{
+        flex-direction: column;
+    }
 }
