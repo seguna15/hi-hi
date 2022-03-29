@@ -112,6 +112,10 @@
         width: 100%;
     }
 
+    .help-container{
+        flex-direction: column;
+    }
+    
     .footer-group{
         flex-direction: column;
     }
