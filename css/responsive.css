@@ -106,6 +106,7 @@
 
     .container .card-container{
         margin-top: 50px;
+        width: 350px;
     }
     .container form{
         width: 100%;
