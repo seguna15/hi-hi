@@ -96,6 +96,9 @@ a {
     background: linear-gradient(45deg, blueviolet, deeppink);
     font-weight: bold;
 }
+ .open-menu,  .close-menu {
+    display: none;
+ }
 
 .logo{
     display: flex;
@@ -714,6 +717,35 @@ a {
     margin-bottom: 1rem;
 }
 
+/* Help Page */
+.help-section{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem
+}
+.help-section h3{
+    color: var(--primary-purple);
+}
+.help-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.help-group li {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+.help-action-group li {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px
+}
 
 /* footer */
 .footer{
