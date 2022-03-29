@@ -86,6 +86,13 @@
         width: 100%;
     }
 
+    .send-main{
+        width: 100%;
+    }
+
+    .send-card{
+        width: 100%;
+    }
     .footer-group{
         flex-direction: column;
     }
