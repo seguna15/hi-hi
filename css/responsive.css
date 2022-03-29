@@ -93,6 +93,17 @@
     .send-card{
         width: 100%;
     }
+
+    .head-grid{
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+    }
+
+    .head-grid .search input{
+        width: 100%;
+    }
+
     .footer-group{
         flex-direction: column;
     }
