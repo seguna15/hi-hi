@@ -50,9 +50,13 @@ a{
 
 header{
     width: 100%;    
+    background: linear-gradient(45deg, blueviolet, deeppink);
+
 }
 
-
+.open-menu, .close-menu{
+    display: none;
+}
 .nav-group{
     display: flex;
     justify-content: center;
@@ -71,7 +75,7 @@ header{
 .nav-link{
     font-size: 18px;
     text-transform: uppercase;
-    color: var(--primary-purple);
+    color: var(--smoke-white);
     transition: 1s;
 }
 
