@@ -51,9 +51,13 @@ a{
 header{
     width: 100%;    
     background: linear-gradient(45deg, blueviolet, deeppink);
-
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.logo{
+    display: flex;
+}
 .open-menu, .close-menu{
     display: none;
 }

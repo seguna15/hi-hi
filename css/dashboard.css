@@ -88,11 +88,17 @@ a {
 
 /* Header */
 
+header{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, #ff1493);
+    justify-content: space-around;
+}
 .navbar{
     display: flex;
     width: 100%;
     height: 60px;
-    justify-content: space-between;
+    justify-content: center;
     background: linear-gradient(45deg, blueviolet, deeppink);
     font-weight: bold;
 }
@@ -102,12 +108,13 @@ a {
 
 .logo{
     display: flex;
+    width: 30%;
+    justify-content: center;
 }
 
-.logo a {
-    margin-left: 50px;
+.nav-item a {
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 18px;
     align-items: center;
     align-self: center;
 }

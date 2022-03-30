@@ -5,12 +5,11 @@
         color: var(--smoke-white);
         padding: 10px;
         background: linear-gradient(45deg, blueviolet, deeppink);
-
     }
 
     .navbar .close-menu {
         display: none;
-        align-self: flex-start;
+        align-self: center;
         font-size: 30px;
         color: var(--smoke-white);
     }
@@ -23,12 +22,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 400px;
-        justify-content: end;
+        height: 80vh;
+        justify-content: space-evenly;
 
     }
 
-   
+    .logo {
+        display: flex;
+        width: 30%;
+        justify-content: flex-start;
+    }
 
     .nav-group {
         flex-direction: column;

@@ -42,6 +42,14 @@ a{
     text-decoration: none;
 }
 /* Header */
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    margin-bottom: 100px;
+}
 .open-menu, .close-menu{
     display: none;
 }
@@ -49,7 +57,7 @@ a{
     display: flex;
     width: 100%;
     height: 60px;
-    justify-content: space-between;
+    justify-content: center;
     background: linear-gradient(45deg, blueviolet, deeppink);
     font-weight: bold;
     margin-bottom: 50px;
@@ -59,13 +67,6 @@ a{
     display: flex;
 }
 
-.logo a {
-    margin-left: 50px;
-    color: whitesmoke;
-    font-size: 30px;
-    align-items: center;
-    align-self: center;
-}
 
 .nav-group {
     display: flex;
@@ -74,6 +75,12 @@ a{
 
 .nav-item {
     padding: 0 40px;
+}
+.nav-item a {
+    color: whitesmoke;
+    font-size: 18px;
+    align-items: center;
+    align-self: center;
 }
 
 .nav-item .nav-link {
